@@ -2,13 +2,30 @@
   "name": "unistar",
   "version": "0.1.0",
   "description": "Make unicode star text",
-  "main": "index.js",
   "scripts": {
     "test": "tape test.js"
   },
-  "license": "Unlicense",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "*.md"
+  ],
   "dependencies": {},
   "devDependencies": {
     "tape": "^4.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pine/unistar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pine/unistar/issues"
+  },
+  "homepage": "https://github.com/pine/unistar",
+  "author": {
+    "name": "Pine Mizune",
+    "email": "pinemz@gmail.com",
+    "url": "https://github.com/pine"
+  },
+  "license": "Unlicense"
 }

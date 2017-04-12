@@ -1,6 +1,6 @@
 {
   "name": "unistar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make unicode star text",
   "scripts": {
     "test": "tape test.js"

@@ -20,26 +20,33 @@ $ npm i -S unistar
 ```
 
 ## Usage
+### Import Library
 
 ```javascript
 const unistar = require('unistar')
-
-// Left to Right
-unistar(0, 5) // ☆☆☆☆☆
-unistar(1, 5) // ★☆☆☆☆
-unistar(2, 5) // ★★☆☆☆
-unistar(3, 5) // ★★★☆☆
-unistar(4, 5) // ★★★★☆
-unistar(5, 5) // ★★★★★
-
-// Right to Left
-unistar(0, 5, true) // ☆☆☆☆☆
-unistar(1, 5, true) // ☆☆☆☆★
-unistar(2, 5, true) // ☆☆☆★★
-unistar(3, 5, true) // ☆☆★★★
-unistar(4, 5, true) // ☆★★★★
-unistar(5, 5, true) // ★★★★★
 ```
+
+### Left to Right
+
+|Code           |Result|
+|---------------|------|
+|`unistar(0, 5)`|☆☆☆☆☆ |
+|`unistar(1, 5)`|★☆☆☆☆ |
+|`unistar(2, 5)`|★★☆☆☆ |
+|`unistar(3, 5)`|★★★☆☆ |
+|`unistar(4, 5)`|★★★★☆ |
+|`unistar(5, 5)`|★★★★★ |
+
+### Right to Left
+
+|Code                 |Result|
+|---------------------|------|
+|`unistar(0, 5, true)`|☆☆☆☆☆ |
+|`unistar(1, 5, true)`|☆☆☆☆★ |
+|`unistar(2, 5, true)`|☆☆☆★★ |
+|`unistar(3, 5, true)`|☆☆★★★ |
+|`unistar(4, 5, true)`|☆★★★★ |
+|`unistar(5, 5, true)`|★★★★★ |
 
 ## License
 Public Domain
